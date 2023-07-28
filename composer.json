@@ -1,11 +1,11 @@
 {
-    "name": "codemanas/unified-search",
-    "description": "Unified Search WordPress Plugin addon",
+    "name": "codemanas/omni-search",
+    "description": "Unified Search Addon for Search with Typesense",
     "type": "wordpress-plugin",
     "license": "GPL-V2",
     "autoload": {
         "psr-4": {
-            "Codemanas\\UnifiedSearch\\": "includes/"
+            "Codemanas\\OmniSearch\\": "includes/"
         }
     },
     "authors": [

@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Codemanas\\UnifiedSearch\\' => array($baseDir . '/includes'),
+    'Codemanas\\OmniSearch\\' => array($baseDir . '/includes'),
 );

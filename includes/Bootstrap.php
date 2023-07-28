@@ -1,6 +1,6 @@
 <?php
 
-namespace Codemanas\UnifiedSearch;
+namespace Codemanas\OmniSearch;
 
 class Bootstrap {
 	private static ?Bootstrap $instance = null;
@@ -17,7 +17,7 @@ class Bootstrap {
 		add_filter( 'cm_typesense_schema', [ $this, 'unified_schema' ], 20 );
 	}
 
-	function unified_schema( $schema ) {
+	public function unified_schema( $schema ) {
 		$schema['name'] = 'unified_data';
 
 		//taken from default TypesenseAPI.php schema

@@ -9,19 +9,19 @@ class ComposerStaticInitbfc02e780a25e56573a1ea7d3a3d6d48
     public static $prefixLengthsPsr4 = array (
         'C' => 
         array (
-            'Codemanas\\UnifiedSearch\\' => 24,
+            'Codemanas\\OmniSearch\\' => 21,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Codemanas\\UnifiedSearch\\' => 
+        'Codemanas\\OmniSearch\\' => 
         array (
             0 => __DIR__ . '/../..' . '/includes',
         ),
     );
 
     public static $classMap = array (
-        'Codemanas\\UnifiedSearch\\Bootstrap' => __DIR__ . '/../..' . '/includes/Bootstrap.php',
+        'Codemanas\\OmniSearch\\Bootstrap' => __DIR__ . '/../..' . '/includes/Bootstrap.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
