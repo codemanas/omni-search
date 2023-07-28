@@ -11,6 +11,7 @@ class Bootstrap {
 
 	protected function __construct() {
 		add_action( 'plugin_loaded', [ $this, 'init_modules' ] );
+		add_action( 'wp_footer', [ $this, 'load_template' ] );
 	}
 
 	public function init_modules() {
@@ -49,6 +50,10 @@ class Bootstrap {
 		$schema['default_sorting_field'] = 'sort_by_date';
 
 		return $schema;
+	}
+
+	public function load_template() {
+		require_once CM_UNIFIED_SEARCH_DIR_PATH . '/templates/hit-template.php';
 	}
 
 }
