@@ -1,0 +1,19 @@
+{
+    "name": "codemanas/unified-search",
+    "description": "Unified Search WordPress Plugin addon",
+    "type": "wordpress-plugin",
+    "license": "GPL-V2",
+    "autoload": {
+        "psr-4": {
+            "Codemanas\\UnifiedSearch\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "codemanas",
+            "email": "info@codemanas.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
