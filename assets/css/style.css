@@ -1,0 +1,19 @@
+.cmswt-InstantSearch .cmswt-CollectionMenu {
+    display: none;
+}
+
+.cmswt-Result-hits_unified_data .ais-Hits-item,
+.cmswt-Result-hits_unified_data .ais-InfiniteHits-item {
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+
+.cmswt-Result-hits_unified_data .ais-Hits-item .title,
+.cmswt-Result-hits_unified_data .ais-InfiniteHits-item .title {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+}
+
+.cmswt-theme-modern .hit-content {
+    padding: 1em!important;
+}
