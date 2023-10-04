@@ -1,0 +1,14 @@
+.cmswt-InstantSearch .cmswt-CollectionMenu {
+    display: none;
+}
+
+.cmswt-Result-hits_unified_data .ais-Hits-item{
+    background: #f5f5f5;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.cmswt-Result-hits_unified_data .ais-Hits-item .title{
+    margin-top: 0;
+    margin-bottom: 0.25em;
+}

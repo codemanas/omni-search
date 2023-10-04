@@ -21,8 +21,9 @@
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-
+defined( 'CM_UNIFIED_SEARCH_VERSION' ) || define( 'CM_UNIFIED_SEARCH_VERSION', '1.0.0' );
 defined( 'CM_UNIFIED_SEARCH_FILE' ) || define( 'CM_UNIFIED_SEARCH_FILE', __FILE__ );
 defined( 'CM_UNIFIED_SEARCH_DIR_PATH' ) || define( 'CM_UNIFIED_SEARCH_DIR_PATH', dirname( __FILE__ ) );
+defined( 'CM_UNIFIED_SEARCH_ASSETS_URL' ) || define( 'CM_UNIFIED_SEARCH_ASSETS_URL', plugins_url( 'assets/',__FILE__ ) );
 
 require CM_UNIFIED_SEARCH_DIR_PATH.'/includes/Bootstrap.php';
