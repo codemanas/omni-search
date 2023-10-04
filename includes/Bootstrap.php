@@ -21,6 +21,7 @@ class Bootstrap {
 		add_filter( 'cm_typesense_data_before_entry', [ $this, 'format_data' ], 10, 4 );
 		add_filter( 'cm_typesense_search_facet_title', [ $this, 'post_type_title' ], 10, 2 );
 		add_filter( 'cm_typesense_search_facet_label', [ $this, 'post_type_label' ], 10, 2 );
+		add_filter( 'cm_typesense_autocomplete_collections', [ $this, 'autocomplete_collection_rectify' ] );
 	}
 
 
@@ -90,6 +91,10 @@ class Bootstrap {
 		}
 
 		return $label;
+	}
+
+	public function autocomplete_collection_rectify(): array {
+		return [ 'Search Results' => 'unified_data' ];
 	}
 
 }
